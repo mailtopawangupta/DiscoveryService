@@ -1,0 +1,13 @@
+---
+applications:
+- name: DiscoveryService
+  memory: 650M
+  instance: 1
+  random-route: true
+  path: DiscoveryService-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+  
+  
+  
+  
+    
